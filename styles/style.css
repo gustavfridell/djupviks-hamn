@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    color: #191919;
+}
+
+a {
+    color: #0065BE;
+}
+
+i {
+    font-style: italic;
+}
+
+.centered-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+header {
+    padding-top: 20px;
+}
+
+#main-nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#main-nav li {
+    margin-bottom: 20px;
+}
+
+#main-nav li:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+#main-nav a {
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#main-nav a:hover {
+    border-bottom: 2px solid #0065BE;
+}
+
+main {
+    flex: 1;
+}
+
+.hero {
+    height: 400px;
+    max-height: 70vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 0 3px 8px rgba(100, 100, 100, 0.5);
+}
+
+#hero-startsida {
+    background-image: url(../images/hero-startsida.jpg);
+}
+
+#hero-turistmal {
+    background-image: url(../images/hero-turistmal.jpg);
+}
+
+#hero-historia {
+    background-image: url(../images/hero-historia.jpg);
+}
+
+#hero-english {
+    background-image: url(../images/hero-english.jpg);
+}
+
+#hero-kontakt {
+    background-image: url(../images/hero-kontakt.jpg);
+}
+
+#hero-medlemsinfo {
+    background-image: url(../images/hero-medlemsinfo.jpg);
+}
+
+#hero-gastplats {
+    background-image: url(../images/hero-gastplats.jpg);
+}
+
+.main-section {
+    padding: 40px 0;
+}
+
+.main-section:not(:last-of-type) {
+    border-bottom: 1px solid #ccc;
+}
+
+.main-section h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.main-section p {
+    line-height: 1.2;
+}
+
+.main-section p:not(:last-of-type) {
+    margin-bottom: 1em;
+}
+
+.main-section .centered-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dashed #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.main-section .centered-image.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.main-section .centered-image.margin-top {
+    margin-top: 20px;
+}
+
+.main-section .centered-image img {
+    width: 250px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.main-section .centered-image span {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.main-section article:not(:last-of-type) {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.main-section article h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main-section article span {
+    display: block;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.main-section article .text-image {
+    display: flex;
+}
+
+.main-section article .text-container {
+    flex: 1;
+}
+
+.main-section article .image-container {
+    width: 30%;
+    margin-left: 20px;
+    min-width: 100px;
+}
+
+.main-section article .image-container img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+table, form {
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+th {
+    font-weight: 600;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+form {
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form label span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+form input:not([type='submit']), form textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+    font-size: 0.8em;
+}
